@@ -6,12 +6,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using System.Collections;
 
-/// <summary>
-/// Script à expliquer au professeur :
-/// Ce script gère le pistolet scanner du magasin.
-/// Lorsqu'on appuie sur la gâchette, il lance un rayon (Raycast) pour détecter un MarketProduct,
-/// l'ajoute à la liste des courses, et met à jour l'écran de caisse.
-/// </summary>
+
 public class Scanner : MonoBehaviour
 {
     [Header("Composants VR")]

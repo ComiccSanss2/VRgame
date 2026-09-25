@@ -1,10 +1,6 @@
 using UnityEngine;
 
-/// <summary>
-/// Script à expliquer au professeur :
-/// Ce script est attaché à chaque produit du magasin (Pomme, Fromage, etc.).
-/// Il stocke les données du produit pour que le scanner puisse les lire.
-/// </summary>
+
 public class MarketProduct : MonoBehaviour
 {
     [Header("Informations du Produit")]

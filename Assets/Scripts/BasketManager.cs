@@ -1,11 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
-/// <summary>
-/// Script à expliquer au professeur :
-/// Gère le panier de courses. Il crée dynamiquement plusieurs emplacements (Sockets) 
-/// à l'intérieur du panier pour y déposer plusieurs objets en même temps.
-/// </summary>
+
 public class BasketManager : MonoBehaviour
 {
     [Header("Configuration des Sockets")]

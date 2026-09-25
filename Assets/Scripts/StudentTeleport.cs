@@ -4,12 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
-/// <summary>
-/// Script à expliquer au professeur :
-/// Ce script personnalisé gère la logique de téléportation. 
-/// Il surveille l'axe Y du joystick gauche et déclenche une requête de téléportation 
-/// auprès du TeleportationProvider lorsque le joueur relâche le joystick.
-/// </summary>
+
 public class StudentTeleport : MonoBehaviour
 {
     [Header("Configuration")]
